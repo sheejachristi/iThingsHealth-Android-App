@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/layoutshape"
+
+    android:fitsSystemWindows="true">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp">
+
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+
+            android:background="@drawable/close"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingLeft="24dp"
+
+
+        android:paddingRight="24dp">
+
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/prev"
+            android:padding="12dp" />
+        <TextView
+            android:id="@+id/eventindex"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="30dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#11367a"
+            android:text="abc"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/next"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:paddingLeft="24dp"
+
+        android:paddingRight="24dp">
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+
+            android:textColor="#11367a"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+            android:textStyle="bold"
+            android:text="ALERT!"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="40dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:layout_gravity="center"
+
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+        <ImageView android:id="@+id/subscriber"
+            android:layout_width="80dp"
+
+            android:scaleType="fitXY"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+    android:src="@drawable/man"
+            android:layout_height="80dp"
+
+            android:background="@drawable/img"
+            android:layout_gravity="center_horizontal" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/eventSubName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            android:textColor="#11367a"
+            android:textSize="24sp"
+            android:text="Jewel Soucy"
+
+            android:paddingLeft="15dp"
+            android:paddingTop="13dp"
+            android:paddingRight="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eventTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:textColor="#11367a"
+            android:paddingLeft="15dp"
+            android:paddingTop="13dp"
+
+
+            android:paddingRight="15dp"
+
+            android:text="10-12-19"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eventPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#11367a"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:text="9847760325"
+
+            android:paddingLeft="15dp"
+
+            android:paddingRight="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eventRecvd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#11367a"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:text="Inactivity"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/textview_border"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+
+       >
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnattend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#fff"
+            android:background="@drawable/buttonshape"
+
+            android:text="Attend"
+            android:layout_marginBottom="24dp"
+            android:padding="5dp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnviewalert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/buttonshape"
+
+
+            android:text="View Alert"
+            android:padding="5dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

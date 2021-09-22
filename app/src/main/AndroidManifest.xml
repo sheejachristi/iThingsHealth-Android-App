@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iorbit_tech.healthcare.caretakerapp.ithingshealthcare">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SettingsActivity"
+            android:label="iThingsHealth">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubscriberActivity"
+            >
+
+        </activity>
+
+        <activity android:name=".AlertActivity"
+            android:label="ALERT"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".SubscriberRegistrationActivity"
+            android:label="Register Subscriber"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity
+            android:name=".DisplayAlertActivity"
+            android:label="EventHistory"
+            android:launchMode="singleTask"></activity>
+
+        <activity android:name=".LoginActivity"
+            android:label="iThingsHealth"
+            android:launchMode="singleTask">
+
+        </activity>
+
+        <activity android:name=".WifiActivity"
+            android:label="iThingsHealth"
+            android:launchMode="singleTask">
+
+        </activity>
+
+        <activity android:name=".TemplateActivity"
+            android:label="iThingsHealth"
+            android:launchMode="singleTask">
+
+        </activity>
+
+
+
+        <activity android:name=".CareGiverRegisterActivity"
+            android:label="iThingsHealth"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".WifiDetails"
+            android:label="iThingsHealth"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".DeviceScannerActivity"
+            android:label="iThingsHealth"
+            android:launchMode="singleTask">
+
+        </activity>
+
+        <service android:name="com.iorbit_tech.healthcare.caretakerapp.firebase.FirebaseReceiver">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

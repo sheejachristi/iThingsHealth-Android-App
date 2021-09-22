@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "15287072069",
+    "firebase_url": "https://ithingstelehealthcare.firebaseio.com",
+    "project_id": "ithingstelehealthcare",
+    "storage_bucket": "ithingstelehealthcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15287072069:android:04e7d138293abb52",
+        "android_client_info": {
+          "package_name": "com.iorbit_tech.healthcare.caretakerapp.ithingshealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15287072069-o6vqvcke6lbe9du5t1a4egbr3fn1hcb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXmrB4dkYt2guXYMJXAGeulpKbSLIug1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15287072069:android:d9e7488d325f3fc8",
+        "android_client_info": {
+          "package_name": "com.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15287072069-o6vqvcke6lbe9du5t1a4egbr3fn1hcb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXmrB4dkYt2guXYMJXAGeulpKbSLIug1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

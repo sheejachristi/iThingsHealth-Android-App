@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/layoutshape"
+
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="5dp"
+        android:paddingLeft="24dp"
+
+
+        android:paddingRight="24dp">
+
+
+
+
+           <TextView android:id="@+id/textSSID1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+            android:paddingTop="30dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#11367a"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold"
+            />
+
+
+
+
+        <EditText android:id="@+id/textPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Wifi Password"
+            android:textColor="#11367a"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#fff"
+        android:background="@drawable/buttonshape"
+
+        android:text="Send"
+        android:layout_marginBottom="24dp"
+        android:padding="5dp" />
+
+
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>
